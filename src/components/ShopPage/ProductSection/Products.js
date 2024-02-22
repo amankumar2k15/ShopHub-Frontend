@@ -60,7 +60,7 @@ const Products = () => {
 
                 {/* -------hover bottom----- */}
                 <div className='w-full h-32 absolute z-10 bg-white -bottom-[130px] group-hover:bottom-0 duration-700  '>
-                  <ul className=' h-full flex flex-col items-end justify-center gap-2 w-[260px] sm:w-[310px]  px-2 border-l border-r'>
+                  <ul className=' h-full flex flex-col items-end justify-center gap-2 sm:w-[310px] px-2 border-l border-r'>
                     <li className='text-[#767676] hover:text-primeColor text-[15px] font-normal border-b-[1px] border-b-gray-200 hover:border-b-primeColor flex items-center justify-end gap-2 hover:cursor-pointer pb-1 duration-300 w-full'>
                       <Link to="/cart"
                         onClick={() => dispatch(addToCart(product))}
