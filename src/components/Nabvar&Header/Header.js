@@ -143,7 +143,7 @@ const Header = () => {
                                 <ul className='flex bg-[#262626] px-2 py-1 w-[80px] flex-col gap-4 text-sm lg:text-base text-[#767676]'>
                                     <Link to="/login" className='hover:border-b-[1px] border-b-[1px] border-b-[#767676] hover:border-b-[#F0F0F0] pb-2 flex items-center gap-2  hover:border-gray-400 hover:text-white duration-300' >Login</Link>
                                     <Link to="/register" className='hover:border-b-[1px] border-b-[1px] border-b-[#767676] hover:border-b-[#F0F0F0] pb-2 flex items-center gap-2  hover:border-gray-400 hover:text-white duration-300' >Register</Link>
-                                    <Link to="/profile" className='hover:border-b-[1px] border-b-[1px] border-b-[#767676] hover:border-b-[#F0F0F0] pb-2 flex items-center gap-2  hover:border-gray-400 hover:text-white duration-300' >Profile</Link>
+                                    <Link to="/login" className='hover:border-b-[1px] border-b-[1px] border-b-[#767676] hover:border-b-[#F0F0F0] pb-2 flex items-center gap-2  hover:border-gray-400 hover:text-white duration-300' >Profile</Link>
                                 </ul>
 
                             </motion.div>
