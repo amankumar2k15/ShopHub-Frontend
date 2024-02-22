@@ -4,9 +4,10 @@ import { motion } from "framer-motion"
 import paymentImg from "../../assets/paymentCard.png"
 import { useDispatch } from 'react-redux'
 import { fetchProducts, fetchProductsByCategory } from '../../store/productSlice'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Footer = () => {
+    const navigate = useNavigate()
     const dispatch = useDispatch()
     const [handleEmail, setHandleEmail] = useState("")
     const [subscription, setSubscription] = useState(false)
@@ -42,6 +43,7 @@ const Footer = () => {
             behavior: "smooth",
             top: 0
         })
+        navigate("/shop")
     }
 
     return (
