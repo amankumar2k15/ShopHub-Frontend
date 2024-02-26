@@ -85,7 +85,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        s
+
                         <div className='flex flex-col gap-8'>
                             <p className=' text-xl font-semibold'>Your account</p>
                             <div>

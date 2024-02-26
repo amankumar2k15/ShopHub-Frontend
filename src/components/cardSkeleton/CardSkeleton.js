@@ -17,6 +17,7 @@ const CardSkeleton = ({ cards }) => {
                             <div className='relative overflow-y-hidden flex justify-center items-center'></div>
                             <div className='w-full sm:w-full h-[250px] flex flex-col justify-center items-center'>
                                 <div className='hidden sm:block'>
+                                
                                     <Skeleton width={310} height={250} />
                                 </div>
                                 <div className='sm:hidden block'>

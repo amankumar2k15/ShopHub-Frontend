@@ -32,7 +32,8 @@ const Products = () => {
                                 />
                             </div>
                             <div className='w-[250px] h-[250px] '>
-                                <img className='object-cover' src={`${SERVER_URL}/${product?.avatar.replace(/\\/g, '/')}`} alt="Imageee" />
+                                {/* <img className='object-cover' src={`${SERVER_URL}/${product?.avatar.replace(/\\/g, '/')}`} alt="Imageee" /> */}
+                                <img className='object-cover' loading='lazy' src={`${product?.avatar}`} alt="ImgAvatar" />
                             </div>
                             {/* -------hover top----- */}
                             <div className="absolute top-6 left-8">

@@ -43,7 +43,7 @@ const Products = () => {
 
         {products && products?.map((product, index) => {
           return (
-            < div key={index} className='BoxComponent group w-full sm:w-[310px] my-5 bg-white ' >
+            <div key={index} className='BoxComponent group w-full sm:w-[310px] my-5 bg-white ' >
               <div className='relative overflow-y-hidden flex items-center justify-center self-center'>
                 <div className='w-[250px] h-[260px] p-4 flex justify-center items-center '>
                   <img className='object-cover' loading='lazy' src={`${product?.avatar}`} alt="ImgAvatar" />

@@ -15,7 +15,10 @@ const NewArrivals = () => {
     const products = useSelector((state) => state.product.data.result) || []
 
     useEffect(() => {
-        dispatch(fetchProducts())
+        setTimeout(() => {
+
+            dispatch(fetchProducts())
+        }, 4000)
     }, [dispatch])
 
 

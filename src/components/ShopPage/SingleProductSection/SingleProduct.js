@@ -8,8 +8,6 @@ import { SERVER_URL } from "../../../constants";
 const SingleProduct = () => {
     const reduxProduct = useSelector((state) => state.product.selectedProduct)
 
-
-
     return (
         <div className="w-full mx-auto border-b-[1px] border-b-gray-300">
             <div className="max-w-container mx-auto px-4">
@@ -23,8 +21,8 @@ const SingleProduct = () => {
                     </div>
                     <div className="h-full xl:col-span-2 flex justify-center items-center">
                         <img
-                            className="w-full rounded-[50%]object-cover"
-                            src={`${SERVER_URL}/${reduxProduct?.avatar.replace(/\\/g, '/')}`}
+                            className=" w-full rounded-[50%]object-cover"
+                            src={`${reduxProduct?.avatar}`}
                             alt="imgProduct"
                         />
                     </div>
