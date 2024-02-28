@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { FaShoppingCart } from "react-icons/fa"
 import { ImCross } from "react-icons/im";
 import { MdOutlineLabelImportant } from "react-icons/md"
-import { SERVER_URL } from '../constants';
 //redux toolkit---react-redux
 import { useDispatch, useSelector } from 'react-redux'
 import { selectProduct } from "../store/productSlice"
@@ -14,7 +13,6 @@ import Breadcrumb from '../components/Breadcrumb/Breadcrumb'
 const Products = () => {
     const dispatch = useDispatch()
     const products = useSelector((state) => state.cart.wishlistItems)
-    // const reduxCartProduct = useSelector((state) => state.cart.wishlistItems);
 
 
     return (

@@ -3,7 +3,6 @@ import ProductOnSale from "./ProductOnSale";
 import ProductInfo from "./ProductInfo"
 import Breadcrumbs from "../../Breadcrumb/Breadcrumb";
 import { useSelector } from "react-redux";
-import { SERVER_URL } from "../../../constants";
 
 const SingleProduct = () => {
     const reduxProduct = useSelector((state) => state.product.selectedProduct)
